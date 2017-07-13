@@ -6,25 +6,25 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
- * Unit tests for the {@link Flight} class.
+ * Unit tests for the {@link TennisGame} class.
  */
-public class FlightTest {
+public class TennisGameTest {
   
   @Test(expected = UnsupportedOperationException.class)
   public void getArrivalStringNeedsToBeImplemented() {
-    Flight flight = new Flight();
+    TennisGame flight = new TennisGame();
     flight.getArrivalString();
   }
 
   @Test
   public void initiallyAllFlightsHaveTheSameNumber() {
-    Flight flight = new Flight();
+    TennisGame flight = new TennisGame();
     assertThat(flight.getNumber(), equalTo(42));
   }
 
   @Test
   public void forProject1ItIsOkayIfGetDepartureTimeReturnsNull() {
-    Flight flight = new Flight();
+    TennisGame flight = new TennisGame();
     assertThat(flight.getDeparture(), is(nullValue()));
   }
   
