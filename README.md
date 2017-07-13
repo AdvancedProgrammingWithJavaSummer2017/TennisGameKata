@@ -1,5 +1,5 @@
-# PortlandStateJavaSummer2017
+# TennisGameKata
 
-Source code that we develop during the Advanced Programming with Java course at Portland State University in the Summer of 2017.
+The skeleton of a Maven project that can be used to implement the Tennis Game Kata
 
-[![Build Status](https://travis-ci.org/DavidWhitlock/PortlandStateJavaSummer2017.svg?branch=master)](https://travis-ci.org/DavidWhitlock/PortlandStateJavaSummer2017)
+http://codingdojo.org/kata/Tennis
